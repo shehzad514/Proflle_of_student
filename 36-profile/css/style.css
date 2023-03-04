@@ -1,0 +1,173 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation
+{
+    background-color: blue;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+}
+.logo h1 
+{
+    font-size: 20px;
+    padding: 5px 90px;
+}
+
+.hamburger
+{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    padding: 13px 0;
+    cursor: pointer;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+.hamburger span
+{
+    background: white;
+    width: 28px;
+    height: 2px;
+    margin-bottom: 8px;
+}
+.hamburger span
+{
+    transform-origin: left;
+    transition: all 0.3s ease-in-out;
+}
+.links
+{
+    margin-right: 30px;
+}
+.links a 
+{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    font-size: 22px;
+}
+.dashboard
+{
+    display: flex;
+    flex-direction: row;
+}
+.side_bar
+{
+    background-color: silver;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    display: block;
+}
+.heading
+{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 10px;
+}
+.heading h3
+{
+    margin-left: 5px;
+}
+.heading img 
+{
+    width: 30%;
+    border-radius: 50%;
+}
+.side-links
+{
+    margin-top: 30px;
+}
+.side-links a 
+{
+    text-decoration: none;
+    color: black;
+}
+.side-links li 
+{
+    margin-top: 5px;
+    list-style-type: none;
+    font-size: 25px;
+    padding: 18px 0;
+    padding-left: 20px;
+    background-color: rgb(231, 226, 226);
+    cursor: pointer;
+}
+.side-links li:hover
+{
+    background-color: yellow;
+    transition: 0.5s;
+}
+.side-links li:hover
+{
+    background-color: yellow;
+}
+.dash_content
+{
+    width: 100%;
+    padding-top: 20px;
+}
+.dash_heading h3
+{
+    padding-left: 10px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+hr
+{
+    width: 98%;
+    height: 3px;
+    margin-top: 10px;
+    margin-left: 8px;
+    background-color: blue;
+}
+.dash_deatils
+{
+    display: flex;
+    padding: 50px 0;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(236, 236, 236);
+    margin-right: 20px;
+
+}
+.profile_detail
+{
+    padding-left: 50px;
+}
+.dsah_img
+{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dsah_img img 
+{
+    width: 60%;
+}
+.dsah_img a 
+{
+    text-decoration: none;
+    color: black ;
+    background-color: silver;
+    padding: 5px 53px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

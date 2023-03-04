@@ -1,0 +1,131 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation
+{
+    background-color: blue;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+}
+.logo h1 
+{
+    font-size: 20px;
+    padding: 5px 90px;
+}
+
+.hamburger
+{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    padding: 13px 0;
+    cursor: pointer;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+.hamburger span
+{
+    background: white;
+    width: 28px;
+    height: 2px;
+    margin-bottom: 8px;
+}
+.hamburger span
+{
+    transform-origin: left;
+    transition: all 0.3s ease-in-out;
+}
+.links
+{
+    margin-right: 30px;
+}
+.links a 
+{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    font-size: 22px;
+}
+.head
+{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../images/back.jpeg");
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup-cont
+{
+background-color: black;
+  border: 2px solid white;
+  color: white;
+  display: flex;
+  height: 60vh;
+  width: 30%;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  box-shadow: 3px 2px 8px #888888;
+  border-radius: 10px;
+  padding: 20px 0;
+}
+.signup-inputs
+{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 50px;
+    justify-content: space-around;
+}
+.signup-inputs input
+{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid white;
+    padding-left: 10px;
+    color: white;
+}
+#checkbox
+{
+    height: 10px;
+    margin-right: 10px;
+}
+.check
+{
+    display: flex;
+    align-items: center;
+}
+.su-btn
+{
+    padding: 10px 100px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.su-btn:hover 
+{
+    box-shadow: 1px 1px 18px 2px #ffffff;
+    transition: 0.5s;
+}
